@@ -839,20 +839,6 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon-ui-tweaks-1.0.7.jar",
-                         "MD5":  "ca8cb2cd9524a22b0c3a643de544e602",
-                         "size":  64439
-                     },
-        "name":  "cobblemon-ui-tweaks-1.0.7",
-        "id":  "mod:cobblemon-ui-tweaks-1.0.7",
-        "type":  "FabricMod",
-        "required":  {
-                         "def":  true,
-                         "value":  true
-                     }
-    },
-    {
-        "artifact":  {
                          "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon_party_extras-fabric-1.8.15.jar",
                          "MD5":  "571c3f037ef46bae2c7aac177e06fe57",
                          "size":  394695

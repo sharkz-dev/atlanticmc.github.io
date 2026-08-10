@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel>
+    <title>AtlanticMC Noticias</title>
+    <link>https://tienda.atlanticmc.club/</link>
+    <description>Noticias del servidor AtlanticMC</description>
+
+    <item>
+      <title>Actualización de Cobblemon Legends v2.0.1</title>
+      <link>https://discord.com/channels/1286773831389806644/1293425443919233104</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>DaniRamos</dc:creator>
+      <content:encoded><![CDATA[
+        <h2>ACTUALIZACIÓN DE COBBLEMON LEGENDS (v2.0.1)</h2>
+        <ul>
+          <li>[+] Hemos reabierto la modalidad <strong>COBBLEMON LEGENDS</strong>.</li>
+          <li> </li>
+          <li>⭐ Estaremos trayendo actualizaciones constantes para darles una mejor jugabilidad dentro del servidor.</li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Actualización de Cobblemon Legends v2.0.0</title>
+      <link>https://discord.com/channels/1286773831389806644/1293425443919233104</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>DaniRamos</dc:creator>
+      <content:encoded><![CDATA[
+        <h2>ACTUALIZACIÓN DE COBBLEMON LEGENDS (v2.0.0)</h2>
+        <ul>
+          <li>[+] Hemos agregado la <strong>MOD LEGENDARY MONUMENTS</strong>.</li>
+          <li>[+] Hemos agregado la <strong>MOD COBBLEMON FURNIES</strong>.</li>
+          <li>[+] Hemos agregado un <strong>MUNDO RECURSOS</strong>, disponible usando /warp Recursos.</li>
+          <li>[+] Hemos agregado <strong>NUEVOS OBJETOS</strong> a laS <strong>CRATES STARTER, WARRIOR Y ELITE</strong>, disponible usando /warp Warps.</li>
+          <li>[+] Hemos agregado <strong>OBJETOS FALTANTES</strong> a la <strong>CRATE COMPETITIVE</strong>, disponible usando /warp Warps.</li>
+          <li>[+] Hemos agregado <strong>EXTRA PARADOX</strong> a la <strong>CRATE MASTER</strong>, disponible usando /warp Warps.</li>
+          <li>[+] Hemos agregado <strong>5 NUEVOS BOSSES</strong>, aparecerán de forma aleatorio por el mundo.</li>
+          <li>[%] Hemos cambiado el <strong>SPAWN PRINCIPAL</strong>, disponible usando /spawn.</li>
+          <li>[%] Hemos cambiado el tiempo de la <strong>CRIANZA / DAYCARE</strong>, todos los tiempos fueron reducidos a la mitad.</li>
+          <li>[%] Hemos cambiado el tiempo de la <strong>GTS</strong>, todos los tiempos fueron reducidos a la mitad.</li>
+          <li>[%] Hemos cambiado el contenido de las <strong>RAIDS</strong>, aparecerá en distintos puntos y darán mas gemas.</li>
+          <li> </li>
+          <li>⭐ Estaremos trayendo actualizaciones constantes para darles una mejor jugabilidad dentro del servidor.</li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+    
+
+  </channel>
+</rss>

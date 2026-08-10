@@ -1,0 +1,1235 @@
+{
+  "version": "1.0.0",
+  "rss": "https://sharkz-dev.github.io/atlanticmc.github.io/noticias.xml",
+  "discord": {
+    "clientId": "123456789012345678",
+    "smallImageText": "atlanticmc",
+    "smallImageKey": "seal-circle"
+  },
+  "servers": [
+    {
+      "id": "atlantic-global",
+      "name": "Atlantic Global",
+      "description": "ModPack para la version 1.21.11",
+      "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon-global.png",
+      "version": "1.0.1",
+      "address": "atlanticmc.club",
+      "minecraftVersion": "1.21.11",
+      "java": {
+        "distribution": "TEMURIN",
+        "supported": "21.x",
+        "suggestedMajor": 21
+      },
+      "discord": {
+        "shortId": "atlantic-global",
+        "largeImageText": "Atlantic Global",
+        "largeImageKey": "seal-circle"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.11-fabric-0.19.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.11/0.19.2/profile/json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "ASM",
+              "type": "Library",
+              "artifact": {
+                "md5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "artifact": {
+                "md5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "ASM Commons",
+              "type": "Library",
+              "artifact": {
+                "md5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "ASM Tree",
+              "type": "Library",
+              "artifact": {
+                "md5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "ASM Util",
+              "type": "Library",
+              "artifact": {
+                "md5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.2+mixin.0.8.7",
+              "name": "Sponge Mixin",
+              "type": "Library",
+              "artifact": {
+                "md5": "4b6b96074976cc7aa096b9e569ca623e",
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.11",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
+              }
+            }
+          ]
+        },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/Almanac-1.21.11-x-fabric-1.6.2.jar",
+                         "MD5":  "1f87ac6aa0caa61d7b17e44d5d7ca3a4",
+                         "size":  1038333
+                     },
+        "name":  "Almanac-1.21.11-x-fabric-1.6.2",
+        "id":  "mod:Almanac-1.21.11-x-fabric-1.6.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/bbe-1.3.0-rc.2+1.21.11.jar",
+                         "MD5":  "a57611425c302467e86ce23b2a2ece6b",
+                         "size":  130737
+                     },
+        "name":  "bbe-1.3.0-rc.2+1.21.11",
+        "id":  "mod:bbe-1.3.0-rc.2+1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/BetterRenderDistance-mc1.21.11-1.1.0.jar",
+                         "MD5":  "956fb1a919ff2accae5faf1a142d42a6",
+                         "size":  53211
+                     },
+        "name":  "BetterRenderDistance-mc1.21.11-1.1.0",
+        "id":  "mod:BetterRenderDistance-mc1.21.11-1.1.0",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/c2me-fabric-mc1.21.11-0.3.7+alpha.0.7.jar",
+                         "MD5":  "871491bb2155a3d1c4f827aaf4aeb95d",
+                         "size":  4688603
+                     },
+        "name":  "c2me-fabric-mc1.21.11-0.3.7+alpha.0.7",
+        "id":  "mod:c2me-fabric-mc1.21.11-0.3.7+alpha.0.7",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/cloth-config-21.11.153-fabric.jar",
+                         "MD5":  "9de770889c2b19445f57f881e4f7d6f8",
+                         "size":  1148427
+                     },
+        "name":  "cloth-config-21.11.153-fabric",
+        "id":  "mod:cloth-config-21.11.153-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/Clumps-fabric-1.21.11-29.0.0.1.jar",
+                         "MD5":  "ed4cfd8170d5eb8da20f424c8f1bd2cb",
+                         "size":  20355
+                     },
+        "name":  "Clumps-fabric-1.21.11-29.0.0.1",
+        "id":  "mod:Clumps-fabric-1.21.11-29.0.0.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/dynamic-fps-3.11.4+minecraft-1.21.11-fabric.jar",
+                         "MD5":  "8c02954e10cd274137d8cf1fe61715d8",
+                         "size":  218843
+                     },
+        "name":  "dynamic-fps-3.11.4+minecraft-1.21.11-fabric",
+        "id":  "mod:dynamic-fps-3.11.4+minecraft-1.21.11-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/entityculling-fabric-1.9.5-mc1.21.11.jar",
+                         "MD5":  "116a6dd3e9318eba93ecf58a51caf248",
+                         "size":  1571825
+                     },
+        "name":  "entityculling-fabric-1.9.5-mc1.21.11",
+        "id":  "mod:entityculling-fabric-1.9.5-mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/entity_model_features_1.21.11-fabric-3.0.17.jar",
+                         "MD5":  "64c4242af555f059f66299d5bfc9dd17",
+                         "size":  513907
+                     },
+        "name":  "entity_model_features_1.21.11-fabric-3.0.17",
+        "id":  "mod:entity_model_features_1.21.11-fabric-3.0.17",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/entity_texture_features_1.21.11-fabric-7.0.13.jar",
+                         "MD5":  "d28a126649275c153adefc5b91acdfde",
+                         "size":  727130
+                     },
+        "name":  "entity_texture_features_1.21.11-fabric-7.0.13",
+        "id":  "mod:entity_texture_features_1.21.11-fabric-7.0.13",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/fabric-api-0.141.3+1.21.11.jar",
+                         "MD5":  "f7e723a1649302a0a6923022a7596f1a",
+                         "size":  2412693
+                     },
+        "name":  "fabric-api-0.141.3+1.21.11",
+        "id":  "mod:fabric-api-0.141.3+1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
+                         "MD5":  "5a82c29fbbfdd3acbb9da9229ae0e32d",
+                         "size":  7642216
+                     },
+        "name":  "fabric-language-kotlin-1.13.9+kotlin.2.3.10",
+        "id":  "mod:fabric-language-kotlin-1.13.9+kotlin.2.3.10",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/fastquit-3.1.3+mc1.21.11.jar",
+                         "MD5":  "10a2e3d019e3517239b03aad83b347b1",
+                         "size":  61123
+                     },
+        "name":  "fastquit-3.1.3+mc1.21.11",
+        "id":  "mod:fastquit-3.1.3+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/ferritecore-8.2.0-fabric.jar",
+                         "MD5":  "3b5c6f5fe571ce945303fc37d5f4c15c",
+                         "size":  80138
+                     },
+        "name":  "ferritecore-8.2.0-fabric",
+        "id":  "mod:ferritecore-8.2.0-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/fpsdisplay-4.5.1+1.21.11.jar",
+                         "MD5":  "5ec04653df51078d1742987d53f18a9e",
+                         "size":  154793
+                     },
+        "name":  "fpsdisplay-4.5.1+1.21.11",
+        "id":  "mod:fpsdisplay-4.5.1+1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/FpsReducer2-fabric-1.21.11-2.15.jar",
+                         "MD5":  "cafe0d8ef473189fd0ae5479a2061977",
+                         "size":  140321
+                     },
+        "name":  "FpsReducer2-fabric-1.21.11-2.15",
+        "id":  "mod:FpsReducer2-fabric-1.21.11-2.15",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/fzzy_config-0.7.6+1.21.11.jar",
+                         "MD5":  "5fad2ec227066c950a08d4bb73a1923e",
+                         "size":  2370785
+                     },
+        "name":  "fzzy_config-0.7.6+1.21.11",
+        "id":  "mod:fzzy_config-0.7.6+1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/ImmediatelyFast-Fabric-1.14.2+1.21.11.jar",
+                         "MD5":  "033dba6be467d96932d11ad7d171a829",
+                         "size":  310445
+                     },
+        "name":  "ImmediatelyFast-Fabric-1.14.2+1.21.11",
+        "id":  "mod:ImmediatelyFast-Fabric-1.14.2+1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/iris-fabric-1.10.5+mc1.21.11.jar",
+                         "MD5":  "029f544f4368f2e9e26e5775519e0a8b",
+                         "size":  2798880
+                     },
+        "name":  "iris-fabric-1.10.5+mc1.21.11",
+        "id":  "mod:iris-fabric-1.10.5+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/krypton-0.2.10.jar",
+                         "MD5":  "f804ed489b36dd0b011b92b50e5c2119",
+                         "size":  270195
+                     },
+        "name":  "krypton-0.2.10",
+        "id":  "mod:krypton-0.2.10",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/LetMeDespawn-1.21.11-x-fabric-1.6.2.jar",
+                         "MD5":  "233ed543ce7067f1420ad5a8987fa8b4",
+                         "size":  17789
+                     },
+        "name":  "LetMeDespawn-1.21.11-x-fabric-1.6.2",
+        "id":  "mod:LetMeDespawn-1.21.11-x-fabric-1.6.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/lithium-fabric-0.21.3+mc1.21.11.jar",
+                         "MD5":  "e5bc4e4a2eb62b11df6456ee7b4588d6",
+                         "size":  888874
+                     },
+        "name":  "lithium-fabric-0.21.3+mc1.21.11",
+        "id":  "mod:lithium-fabric-0.21.3+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/modernfix-5.25.2-build.4.jar",
+                         "MD5":  "8b17bf17624b325e832dbc6d37b28f9e",
+                         "size":  627243
+                     },
+        "name":  "modernfix-5.25.2-build.4",
+        "id":  "mod:modernfix-5.25.2-build.4",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/modmenu-17.0.0-beta.2.jar",
+                         "MD5":  "876eca2ec6fa50d36b4bd9320ec680a1",
+                         "size":  1115052
+                     },
+        "name":  "modmenu-17.0.0-beta.2",
+        "id":  "mod:modmenu-17.0.0-beta.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/moreculling-fabric-1.21.11-1.6.1.jar",
+                         "MD5":  "67423f934563b78c591d4e09c04c041a",
+                         "size":  341925
+                     },
+        "name":  "moreculling-fabric-1.21.11-1.6.1",
+        "id":  "mod:moreculling-fabric-1.21.11-1.6.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/noisium-fabric-2.8.3+mc1.21.11.jar",
+                         "MD5":  "59291bc578be19e3431e22b2975fc3c0",
+                         "size":  225560
+                     },
+        "name":  "noisium-fabric-2.8.3+mc1.21.11",
+        "id":  "mod:noisium-fabric-2.8.3+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/particle_core-0.3.2+1.21.11.jar",
+                         "MD5":  "a8c08f47659619b539ad283a78e7a1e3",
+                         "size":  141221
+                     },
+        "name":  "particle_core-0.3.2+1.21.11",
+        "id":  "mod:particle_core-0.3.2+1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/placeholder-api-2.8.2+1.21.10.jar",
+                         "MD5":  "392f27ec00dd71b8b4a9819f9449e856",
+                         "size":  268662
+                     },
+        "name":  "placeholder-api-2.8.2+1.21.10",
+        "id":  "mod:placeholder-api-2.8.2+1.21.10",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/reeses-sodium-options-fabric-2.0.3+mc1.21.11.jar",
+                         "MD5":  "e27a13afb9a61f57af114e0f93fa8727",
+                         "size":  104577
+                     },
+        "name":  "reeses-sodium-options-fabric-2.0.3+mc1.21.11",
+        "id":  "mod:reeses-sodium-options-fabric-2.0.3+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/ScalableLux-0.1.6+fabric.c25518a-all.jar",
+                         "MD5":  "ca30a71928ab5ca55ef977b9ee36b3b6",
+                         "size":  182846
+                     },
+        "name":  "ScalableLux-0.1.6+fabric.c25518a-all",
+        "id":  "mod:ScalableLux-0.1.6+fabric.c25518a-all",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/SmoothBoot+1.21.11-1.0.0 (1).jar",
+                         "MD5":  "8c72314f465951b416bbd2e2143b2720",
+                         "size":  38504
+                     },
+        "name":  "SmoothBoot+1.21.11-1.0.0 (1)",
+        "id":  "mod:SmoothBoot+1.21.11-1.0.0 (1)",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+                         "MD5":  "6d9e005c52ed09fe681330408f05815c",
+                         "size":  394219
+                     },
+        "name":  "sodium-extra-fabric-0.8.3+mc1.21.11",
+        "id":  "mod:sodium-extra-fabric-0.8.3+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/sodium-fabric-0.8.4+mc1.21.11.jar",
+                         "MD5":  "96d666528c9e26f5bc5261025fa035b0",
+                         "size":  1867803
+                     },
+        "name":  "sodium-fabric-0.8.4+mc1.21.11",
+        "id":  "mod:sodium-fabric-0.8.4+mc1.21.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/Threads-1.1-1.21.10.jar",
+                         "MD5":  "e4986644c9e18b84dbec23820ea684c6",
+                         "size":  12074
+                     },
+        "name":  "Threads-1.1-1.21.10",
+        "id":  "mod:Threads-1.1-1.21.10",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/voicechat-fabric-1.21.11-2.6.15.jar",
+                         "MD5":  "314a36cfea795548a2e64c1459910f83",
+                         "size":  5573416
+                     },
+        "name":  "voicechat-fabric-1.21.11-2.6.15",
+        "id":  "mod:voicechat-fabric-1.21.11-2.6.15",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/xaerominimap-fabric-1.21.11-25.3.10.jar",
+                         "MD5":  "c74fd7631ac37d94a80a0d2d196a28f9",
+                         "size":  2151166
+                     },
+        "name":  "xaerominimap-fabric-1.21.11-25.3.10",
+        "id":  "mod:xaerominimap-fabric-1.21.11-25.3.10",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-global/xaeroworldmap-fabric-1.21.11-1.40.11.jar",
+                         "MD5":  "713d131a03abaf8ff3f40729e87a4add",
+                         "size":  1434362
+                     },
+        "name":  "xaeroworldmap-fabric-1.21.11-1.40.11",
+        "id":  "mod:xaeroworldmap-fabric-1.21.11-1.40.11",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+          }
+      ]
+    },
+    {
+      "id": "atlanticmc-full",
+      "name": "Cobblemon Legends",
+      "description": "Servidor Cobblemon con Fabric 1.21.1",
+      "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon.png",
+      "version": "2.0.1",
+      "address": "atlanticmc.club",
+      "minecraftVersion": "1.21.1",
+      "java": {
+        "distribution": "TEMURIN",
+        "supported": "21.x",
+        "suggestedMajor": 21
+      },
+      "discord": {
+        "shortId": "atlanticmc",
+        "largeImageText": "atlanticmc Network",
+        "largeImageKey": "seal-circle"
+      },
+      "mainServer": false,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.18.4/profile/json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "ASM",
+              "type": "Library",
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "ASM Analysis",
+              "type": "Library",
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "ASM Commons",
+              "type": "Library",
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "ASM Tree",
+              "type": "Library",
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "ASM Util",
+              "type": "Library",
+              "artifact": {
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.0+mixin.0.8.7",
+              "name": "Sponge Mixin",
+              "type": "Library",
+              "artifact": {
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "artifact": {
+            "url": "https://github.com/sharkz-dev/minemon.github.io/releases/download/v1.4.2/Cobblemon-fabric-1.7.3+1.21.1.jar",
+            "MD5": "1de64f280372ec94e4376976fb579d52",
+            "size": 135801550
+          },
+          "name": "Cobblemon",
+          "id": "mod:Cobblemon-fabric-1.7.3+1.21.1",
+          "type": "FabricMod",
+          "required": {
+            "def": true,
+            "value": true
+          }
+        },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+                         "MD5":  "1f332447eadf66a07b33e641816fcd5e",
+                         "size":  1095802
+                     },
+        "name":  "accessories-fabric-1.1.0-beta.53+1.21.1",
+        "id":  "mod:accessories-fabric-1.1.0-beta.53+1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/AdvancementPlaques-1.21.1-fabric-1.6.8.jar",
+                         "MD5":  "99b36bb8a2f7fd84ea83c00b65be9b90",
+                         "size":  195505
+                     },
+        "name":  "AdvancementPlaques-1.21.1-fabric-1.6.8",
+        "id":  "mod:AdvancementPlaques-1.21.1-fabric-1.6.8",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/architectury-13.0.11-fabric.jar",
+                         "MD5":  "5d7a93f9b84d8facf6a7d7a51d71158b",
+                         "size":  600921
+                     },
+        "name":  "architectury-13.0.11-fabric",
+        "id":  "mod:architectury-13.0.11-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/catchrate-display-fabric-2.8.23.jar",
+                         "MD5":  "363635d99c82019a2e113e0052f117bf",
+                         "size":  260886
+                     },
+        "name":  "catchrate-display-fabric-2.8.23",
+        "id":  "mod:catchrate-display-fabric-2.8.23",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/chat_heads-0.15.5-fabric-1.21.jar",
+                         "MD5":  "1c15120e98e782d49d67917bf531f8c7",
+                         "size":  86182
+                     },
+        "name":  "chat_heads-0.15.5-fabric-1.21",
+        "id":  "mod:chat_heads-0.15.5-fabric-1.21",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cloth-config-15.0.140-fabric.jar",
+                         "MD5":  "a2c091b027ad6ba8e54b07020fd45884",
+                         "size":  1157166
+                     },
+        "name":  "cloth-config-15.0.140-fabric",
+        "id":  "mod:cloth-config-15.0.140-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon-battle-extras-fabric-1.13.45.jar",
+                         "MD5":  "dbf09923dc28a0339c5c5bb7eae9061d",
+                         "size":  1515972
+                     },
+        "name":  "cobblemon-battle-extras-fabric-1.13.45",
+        "id":  "mod:cobblemon-battle-extras-fabric-1.13.45",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon-ui-tweaks-1.0.7.jar",
+                         "MD5":  "ca8cb2cd9524a22b0c3a643de544e602",
+                         "size":  64439
+                     },
+        "name":  "cobblemon-ui-tweaks-1.0.7",
+        "id":  "mod:cobblemon-ui-tweaks-1.0.7",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon_party_extras-fabric-1.8.15.jar",
+                         "MD5":  "571c3f037ef46bae2c7aac177e06fe57",
+                         "size":  394695
+                     },
+        "name":  "cobblemon_party_extras-fabric-1.8.15",
+        "id":  "mod:cobblemon_party_extras-fabric-1.8.15",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+                         "MD5":  "aa6037fac4244ba15a7ea67adc335eff",
+                         "size":  217532
+                     },
+        "name":  "dynamic-fps-3.11.4+minecraft-1.21.0-fabric",
+        "id":  "mod:dynamic-fps-3.11.4+minecraft-1.21.0-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/entityculling-fabric-1.10.5-mc1.21.1.jar",
+                         "MD5":  "833cb8fd661a52acf63856d22e45f832",
+                         "size":  1595131
+                     },
+        "name":  "entityculling-fabric-1.10.5-mc1.21.1",
+        "id":  "mod:entityculling-fabric-1.10.5-mc1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/entity_model_features-3.2.4-1.21-fabric.jar",
+                         "MD5":  "91f3be98f2f2cd76d3ad68525f76ff79",
+                         "size":  565280
+                     },
+        "name":  "entity_model_features-3.2.4-1.21-fabric",
+        "id":  "mod:entity_model_features-3.2.4-1.21-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/entity_texture_features_1.21-fabric-7.1.jar",
+                         "MD5":  "ae33b3cdbe2d7b431e5d36c41efb34c9",
+                         "size":  745421
+                     },
+        "name":  "entity_texture_features_1.21-fabric-7.1",
+        "id":  "mod:entity_texture_features_1.21-fabric-7.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/fabric-api-0.116.15+1.21.1.jar",
+                         "MD5":  "e24c27a4ece4ee82ca7a55f2f5b544f4",
+                         "size":  2452718
+                     },
+        "name":  "fabric-api-0.116.15+1.21.1",
+        "id":  "mod:fabric-api-0.116.15+1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+                         "MD5":  "b70470268be8c74a10e10b24a2bf7df6",
+                         "size":  8076363
+                     },
+        "name":  "fabric-language-kotlin-1.13.13+kotlin.2.4.10",
+        "id":  "mod:fabric-language-kotlin-1.13.13+kotlin.2.4.10",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/ferritecore-7.0.3-fabric.jar",
+                         "MD5":  "b8513c8c3eef01ea1117ed8d8cba060d",
+                         "size":  123450
+                     },
+        "name":  "ferritecore-7.0.3-fabric",
+        "id":  "mod:ferritecore-7.0.3-fabric",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/geckolib-fabric-1.21.1-4.9.2.jar",
+                         "MD5":  "fe791e7b10c8b7c736ea3e57747eac09",
+                         "size":  660416
+                     },
+        "name":  "geckolib-fabric-1.21.1-4.9.2",
+        "id":  "mod:geckolib-fabric-1.21.1-4.9.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/Iceberg-1.21.1-fabric-1.3.2.jar",
+                         "MD5":  "fe26852d922aa24dad9c81270a09f929",
+                         "size":  413302
+                     },
+        "name":  "Iceberg-1.21.1-fabric-1.3.2",
+        "id":  "mod:Iceberg-1.21.1-fabric-1.3.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/ImmediatelyFast-Fabric-1.6.11+1.21.1.jar",
+                         "MD5":  "ff2f33b4f400d9ccf3bc6e160246b101",
+                         "size":  336763
+                     },
+        "name":  "ImmediatelyFast-Fabric-1.6.11+1.21.1",
+        "id":  "mod:ImmediatelyFast-Fabric-1.6.11+1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+                         "MD5":  "4399f0c3edfe2af7f61db3725fe5c751",
+                         "size":  2791343
+                     },
+        "name":  "iris-fabric-1.8.14-beta.1+mc1.21.1",
+        "id":  "mod:iris-fabric-1.8.14-beta.1+mc1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/Jade-1.21.1-Fabric-15.10.6.jar",
+                         "MD5":  "be81fdbb2c03889c463260b52739621c",
+                         "size":  740746
+                     },
+        "name":  "Jade-1.21.1-Fabric-15.10.6",
+        "id":  "mod:Jade-1.21.1-Fabric-15.10.6",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/jei-1.21.1-fabric-19.43.0.394.jar",
+                         "MD5":  "23c38bf7289a5cedad58a3fc2089ab4b",
+                         "size":  1718554
+                     },
+        "name":  "jei-1.21.1-fabric-19.43.0.394",
+        "id":  "mod:jei-1.21.1-fabric-19.43.0.394",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/lithium-fabric-0.15.4+mc1.21.1.jar",
+                         "MD5":  "6fd6783640f42130f041b50cca2d3be6",
+                         "size":  797454
+                     },
+        "name":  "lithium-fabric-0.15.4+mc1.21.1",
+        "id":  "mod:lithium-fabric-0.15.4+mc1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/mega_showdown-fabric-1.9.3+1.7.3+1.21.1.jar",
+                         "MD5":  "2fe09b34c8e9d4b20e2a35da9a90cdfa",
+                         "size":  18944912
+                     },
+        "name":  "mega_showdown-fabric-1.9.3+1.7.3+1.21.1",
+        "id":  "mod:mega_showdown-fabric-1.9.3+1.7.3+1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/modernfix-fabric-5.25.1+mc1.21.1.jar",
+                         "MD5":  "17260c894041b7b4a1b1f2fd1a8f1a8b",
+                         "size":  471258
+                     },
+        "name":  "modernfix-fabric-5.25.1+mc1.21.1",
+        "id":  "mod:modernfix-fabric-5.25.1+mc1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/modmenu-11.0.4.jar",
+                         "MD5":  "b2b9c53a887c100f780708c4f36db6c4",
+                         "size":  973059
+                     },
+        "name":  "modmenu-11.0.4",
+        "id":  "mod:modmenu-11.0.4",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/moreculling-fabric-1.21.1-1.0.9.jar",
+                         "MD5":  "673104ee5523803fdd4980d0c91b343a",
+                         "size":  332230
+                     },
+        "name":  "moreculling-fabric-1.21.1-1.0.9",
+        "id":  "mod:moreculling-fabric-1.21.1-1.0.9",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/owo-lib-0.13.0-alpha.15+1.21.jar",
+                         "MD5":  "a3eb2ecafeb4bc1fb453b13cb43a12c1",
+                         "size":  1963544
+                     },
+        "name":  "owo-lib-0.13.0-alpha.15+1.21",
+        "id":  "mod:owo-lib-0.13.0-alpha.15+1.21",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/placeholder-api-2.4.2+1.21.jar",
+                         "MD5":  "4de8568a088a276c94168514d625413d",
+                         "size":  232325
+                     },
+        "name":  "placeholder-api-2.4.2+1.21",
+        "id":  "mod:placeholder-api-2.4.2+1.21",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/sodium-extra-fabric-0.9.3+mc1.21.1.jar",
+                         "MD5":  "03581d8465df162f6e8f429c03aedf2d",
+                         "size":  469925
+                     },
+        "name":  "sodium-extra-fabric-0.9.3+mc1.21.1",
+        "id":  "mod:sodium-extra-fabric-0.9.3+mc1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/sodium-fabric-0.8.13-beta.2+mc1.21.1.jar",
+                         "MD5":  "c7de9be37a92809c2b9dceefe74743ee",
+                         "size":  1574596
+                     },
+        "name":  "sodium-fabric-0.8.13-beta.2+mc1.21.1",
+        "id":  "mod:sodium-fabric-0.8.13-beta.2+mc1.21.1",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/voicechat-fabric-1.21.1-2.6.22.jar",
+                         "MD5":  "dccfc2a487792d2d52ca91d19b9d7f6d",
+                         "size":  5369475
+                     },
+        "name":  "voicechat-fabric-1.21.1-2.6.22",
+        "id":  "mod:voicechat-fabric-1.21.1-2.6.22",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/xaerominimap-fabric-1.21.1-26.4.2.jar",
+                         "MD5":  "c5dc72b99f6bca09e42e5786da1c9b97",
+                         "size":  2233608
+                     },
+        "name":  "xaerominimap-fabric-1.21.1-26.4.2",
+        "id":  "mod:xaerominimap-fabric-1.21.1-26.4.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/xaeroworldmap-fabric-1.21.1-1.44.2.jar",
+                         "MD5":  "779cde2dce63cf90d6b318933c2d1080",
+                         "size":  1448218
+                     },
+        "name":  "xaeroworldmap-fabric-1.21.1-1.44.2",
+        "id":  "mod:xaeroworldmap-fabric-1.21.1-1.44.2",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/zamega-fabric-1.7.5-hotfix.jar",
+                         "MD5":  "2e447e40c78a486139ef9d52d9cf15d1",
+                         "size":  849762
+                     },
+        "name":  "zamega-fabric-1.7.5-hotfix",
+        "id":  "mod:zamega-fabric-1.7.5-hotfix",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+        }
+      ]
+    }
+  ]
+}

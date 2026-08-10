@@ -629,11 +629,11 @@
       ]
     },
     {
-      "id": "atlanticmc-full",
-      "name": "Cobblemon Legends",
+      "id": "atlanticmc-cobblemon",
+      "name": "Cobblemon Champions",
       "description": "Servidor Cobblemon con Fabric 1.21.1",
       "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon.png",
-      "version": "2.0.1",
+      "version": "1.0.0",
       "address": "atlanticmc.club",
       "minecraftVersion": "1.21.1",
       "java": {

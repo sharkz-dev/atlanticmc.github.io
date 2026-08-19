@@ -633,7 +633,7 @@
       "name": "Cobblemon Champions",
       "description": "Servidor Cobblemon con Fabric 1.21.1",
       "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "atlanticmc.club",
       "minecraftVersion": "1.21.1",
       "java": {

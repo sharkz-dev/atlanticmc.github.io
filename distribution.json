@@ -1049,12 +1049,12 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/mega_showdown-fabric-1.9.4+1.7.3+1.21.1.jar",
-                         "MD5":  "006b630803835d88e75e5aa4540a6a1b",
-                         "size":  20025459
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/mega_showdown-fabric-1.9.7+1.7.3+1.21.1.jar",
+                         "MD5":  "0f32c01b748178bc5b9b2b04e13e6de6",
+                         "size":  20352745
                      },
-        "name":  "mega_showdown-fabric-1.9.4+1.7.3+1.21.1",
-        "id":  "mod:mega_showdown-fabric-1.9.4+1.7.3+1.21.1",
+        "name":  "mega_showdown-fabric-1.9.7+1.7.3+1.21.1",
+        "id":  "mod:mega_showdown-fabric-1.9.7+1.7.3+1.21.1",
         "type":  "FabricMod",
         "required":  {
                          "def":  true,

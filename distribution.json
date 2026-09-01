@@ -12,7 +12,7 @@
       "name": "Atlantic Global",
       "description": "ModPack para la version 1.21.11",
       "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon-global.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "atlanticmc.club",
       "minecraftVersion": "1.21.11",
       "java": {

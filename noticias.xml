@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+  <channel>
+    <title>AtlanticMC Noticias</title>
+    <link>https://tienda.atlanticmc.club/</link>
+    <description>Noticias del servidor AtlanticMC</description>
+
+    <item>
+      <title>Actualización de Cobblemon Legends v2.0.1</title>
+      <link>https://discord.com/channels/1286773831389806644/1293425443919233104</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>DaniRamos</dc:creator>
+      <content:encoded><![CDATA[
+        <h2>ACTUALIZACIÓN DE COBBLEMON LEGENDS (v2.0.1)</h2>
+        <ul>
+          <li>[+] Hemos reabierto la modalidad <strong>COBBLEMON LEGENDS</strong>.</li>
+          <li> </li>
+          <li>⭐ Estaremos trayendo actualizaciones constantes para darles una mejor jugabilidad dentro del servidor.</li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Actualización de Cobblemon Champions v1.0.3</title>
+      <link>https://discord.com/channels/1286773831389806644/1293425443919233104</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>DaniRamos</dc:creator>
+      <content:encoded><![CDATA[
+        <h2>ACTUALIZACIÓN DE COBBLEMON CHAMPIONS (v1.0.3)</h2>
+        <ul>
+          <li>[+] Hemos agregado la <strong>COBBLEMON 1.8.1</strong>.</li>
+          <li>[+] Hemos agregado la <strong>COBBLEMON MEGASHOWDOWN 1.2.0</strong>.</li>
+          <li>[+] Hemos agregado un <strong>NAVAS MEGAS ZA 1.8.1</strong>, disponible usando /warp Recursos.</li>
+          <li> </li>
+          <li>⭐ Estaremos trayendo actualizaciones constantes para darles una mejor jugabilidad dentro del servidor.</li>
+        </ul>
+      ]]></content:encoded>
+    </item>
+    
+
+  </channel>
+</rss>

@@ -811,7 +811,7 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/Cobblemon-fabric-1.8.1+1.21.1.jar",
+                         "url":  "https://cdn.modrinth.com/data/MdwFAVRL/versions/gBW3vLC7/Cobblemon-fabric-1.8.1%2B1.21.1.jar?mr_download_reason=standalone",
                          "MD5":  "44f05511466a5ae5e287e4d27dd2e916",
                          "size":  134
                      },

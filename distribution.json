@@ -13,7 +13,7 @@
       "description": "ModPack para la version 1.21.11",
       "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon-global.png",
       "version": "1.0.2",
-      "address": "atlanticmc.club",
+      "address": "atlanticmc.live",
       "minecraftVersion": "1.21.11",
       "java": {
         "distribution": "TEMURIN",
@@ -634,7 +634,7 @@
       "description": "Servidor Cobblemon con Fabric 1.21.1",
       "icon": "https://sharkz-dev.github.io/atlanticmc.github.io/icon.png",
       "version": "1.0.1",
-      "address": "atlanticmc.club",
+      "address": "atlanticmc.live",
       "minecraftVersion": "1.21.1",
       "java": {
         "distribution": "TEMURIN",

@@ -85,12 +85,26 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/Cobblemon-fabric-1.8.1+1.21.1.jar",
-                         "MD5":  "508e825d834c4ad354ff12cdf2b3a76c",
-                         "size":  137391338
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon-battle-extras-fabric-1.13.45.jar",
+                         "MD5":  "dbf09923dc28a0339c5c5bb7eae9061d",
+                         "size":  1515972
                      },
-        "name":  "Cobblemon-fabric-1.8.1+1.21.1",
-        "id":  "mod:Cobblemon-fabric-1.8.1+1.21.1",
+        "name":  "cobblemon-battle-extras-fabric-1.13.45",
+        "id":  "mod:cobblemon-battle-extras-fabric-1.13.45",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/Cobblemon-fabric-1.8.2+1.21.1.jar",
+                         "MD5":  "e32d43993c5c319e75f1790c9d0a7a38",
+                         "size":  139317851
+                     },
+        "name":  "Cobblemon-fabric-1.8.2+1.21.1",
+        "id":  "mod:Cobblemon-fabric-1.8.2+1.21.1",
         "type":  "FabricMod",
         "required":  {
                          "def":  true,
@@ -309,12 +323,12 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/mega_showdown-fabric-1.2.0+1.8.1+1.21.1-release.jar",
-                         "MD5":  "f51a99a2f7b7ad3e18e4bd73f2bafa0d",
-                         "size":  20152218
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release.jar",
+                         "MD5":  "48bdd4cb48e9fdc86a10561e70b3112e",
+                         "size":  20266478
                      },
-        "name":  "mega_showdown-fabric-1.2.0+1.8.1+1.21.1-release",
-        "id":  "mod:mega_showdown-fabric-1.2.0+1.8.1+1.21.1-release",
+        "name":  "mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release",
+        "id":  "mod:mega_showdown-fabric-1.3.1+1.8.2+1.21.1-release",
         "type":  "FabricMod",
         "required":  {
                          "def":  true,
@@ -477,12 +491,12 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/zamega-fabric-1.8.1+1.8.jar",
-                         "MD5":  "102469858496b9dd3d566fb351048051",
-                         "size":  899567
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/zamega-fabric-1.8.2+1.8.2.jar",
+                         "MD5":  "60f2f9b840be6b0ce82a543e11a9fffd",
+                         "size":  896936
                      },
-        "name":  "zamega-fabric-1.8.1+1.8",
-        "id":  "mod:zamega-fabric-1.8.1+1.8",
+        "name":  "zamega-fabric-1.8.2+1.8.2",
+        "id":  "mod:zamega-fabric-1.8.2+1.8.2",
         "type":  "FabricMod",
         "required":  {
                          "def":  true,

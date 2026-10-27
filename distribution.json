@@ -29,21 +29,21 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "id": "net.fabricmc:fabric-loader:0.20.1",
           "name": "Fabric (fabric-loader)",
           "type": "Fabric",
           "artifact": {
             "size": 1944518,
             "MD5": "56c00fa22e0452e8567be1feae73c3b9",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar"
           },
           "subModules": [
             {
-              "id": "1.21.1-fabric-0.18.4",
+              "id": "1.21.1-fabric-0.20.1",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.18.4/profile/json"
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.20.1/profile/json"
               }
             },
             {
@@ -196,20 +196,6 @@
                      },
         "name":  "cloth-config-15.0.140-fabric",
         "id":  "mod:cloth-config-15.0.140-fabric",
-        "type":  "FabricMod",
-        "required":  {
-                         "def":  true,
-                         "value":  true
-                     }
-    },
-    {
-        "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon-battle-extras-fabric-1.13.45.jar",
-                         "MD5":  "dbf09923dc28a0339c5c5bb7eae9061d",
-                         "size":  1515972
-                     },
-        "name":  "cobblemon-battle-extras-fabric-1.13.45",
-        "id":  "mod:cobblemon-battle-extras-fabric-1.13.45",
         "type":  "FabricMod",
         "required":  {
                          "def":  true,

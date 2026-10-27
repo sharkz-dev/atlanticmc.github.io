@@ -33,7 +33,7 @@
           "name": "Fabric (fabric-loader)",
           "type": "Fabric",
           "artifact": {
-            "size": 1944518,
+            "size": 1988880,
             "MD5": "56c00fa22e0452e8567be1feae73c3b9",
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar"
           },

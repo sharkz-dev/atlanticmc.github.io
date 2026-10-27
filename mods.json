@@ -113,20 +113,6 @@
     },
     {
         "artifact":  {
-                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/Cobblemon-fabric-1.8.4+1.21.1.jar",
-                         "MD5":  "717372480c2254cddc8b5a031ec4e7fa",
-                         "size":  139966403
-                     },
-        "name":  "Cobblemon-fabric-1.8.4+1.21.1",
-        "id":  "mod:Cobblemon-fabric-1.8.4+1.21.1",
-        "type":  "FabricMod",
-        "required":  {
-                         "def":  true,
-                         "value":  true
-                     }
-    },
-    {
-        "artifact":  {
                          "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/cobblemon_party_extras-fabric-1.8.15.jar",
                          "MD5":  "571c3f037ef46bae2c7aac177e06fe57",
                          "size":  394695
@@ -217,6 +203,20 @@
                      },
         "name":  "fabric-language-kotlin-1.14.2+kotlin.2.4.21",
         "id":  "mod:fabric-language-kotlin-1.14.2+kotlin.2.4.21",
+        "type":  "FabricMod",
+        "required":  {
+                         "def":  true,
+                         "value":  true
+                     }
+    },
+    {
+        "artifact":  {
+                         "url":  "https://sharkz-dev.github.io/atlanticmc.github.io/mods-cobblemon/fabric-loader-0.20.1.jar",
+                         "MD5":  "2e3dc8eebfde75fc8078c931090cd46f",
+                         "size":  1988880
+                     },
+        "name":  "fabric-loader-0.20.1",
+        "id":  "mod:fabric-loader-0.20.1",
         "type":  "FabricMod",
         "required":  {
                          "def":  true,
